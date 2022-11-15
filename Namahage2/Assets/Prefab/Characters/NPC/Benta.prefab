@@ -231,7 +231,7 @@ MonoBehaviour:
   - Voce deveria passar por la
   index: 0
   dialogueGoing: 1
-  textSpeed: 0.2
+  textSpeed: 0.1
   playerIsClosed: 0
   playerLayer:
     serializedVersion: 2
