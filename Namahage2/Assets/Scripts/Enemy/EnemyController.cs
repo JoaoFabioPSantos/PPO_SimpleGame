@@ -29,12 +29,10 @@ public class EnemyController : MonoBehaviour
 
     private void EnemyDeads()
     {
-        Destroy(transform.gameObject.GetComponent<SpriteRenderer>());
-        Destroy(transform.gameObject.GetComponent<Animator>());
         Destroy(transform.gameObject.GetComponent<HotZoneCheck>());
-      //  DestroyObject(triggerArea);
-       // DestroyObject(hotArea);
-       DestroyObject(this);
+        //  DestroyObject(triggerArea);
+        // DestroyObject(hotArea);
+        Destroy(transform.gameObject.GetComponent<SpriteRenderer>());
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
